@@ -1,4 +1,4 @@
-random import randint
+from random import randint
 from time import sleep
 from pyfiglet import Figlet
 from termcolor import colored
