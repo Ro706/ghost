@@ -16,7 +16,7 @@ while feelingbrave:
     print("You have to open one, which one?")
     door = input('1, 2, or 3?')
     doornum = int(door)
-    if doornum == 1 or doornum == 2 or doornum == 3:                                                         if doornum == ghostdoor:
+    if doornum == 1 or doornum == 2 or doornum == 3:           
             print(colored("GHOST!!!",'red'))
             feelingbrave = False
         else:
